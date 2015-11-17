@@ -1,0 +1,31 @@
+{
+  "name": "karma-ts-preprocessor",
+  "version": "1.0.0",
+  "description": "TypeScript preprocessor for karma",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "compile": "start tsc -p . --outDir . -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulsouche/karma-ts-preprocessor.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Karma",
+    "Preprocessor"
+  ],
+  "author": "paulsouche",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulsouche/karma-ts-preprocessor/issues"
+  },
+  "homepage": "https://github.com/paulsouche/karma-ts-preprocessor#readme",
+  "dependencies": {
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.9.2",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.0"
+  }
+}
